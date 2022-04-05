@@ -1,0 +1,472 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+/*
+font-family: 'Chivo', sans-serif;
+font-family: 'Open Sans', sans-serif;
+*/
+a{
+	text-decoration: none !important;
+}
+ul{
+	margin: 0;
+	padding: 0;
+}
+/**************************
+Header section css
+***************************/
+header{
+	width: 100%;
+	background-color: #150303;
+}
+
+.nav-link{
+	font-size: 14px;
+	color: #fff !important;
+	font-weight: 600;
+	text-transform: uppercase;
+	font-family: 'Open Sans', sans-serif;
+
+}
+.nav-link:hover{
+	color: #fb0000 !important;
+}
+.qoute-btn{
+	color: #fff;
+	background-color: #fb0000 !important;
+	font-size: 16px;
+	text-transform: uppercase;
+	font-weight: 600 !important;
+	padding: 25px 60px;
+	font-family: 'Open Sans', sans-serif;
+	margin-left: 16px;
+}
+.qoute-btn:hover{
+	color: #fff;
+}
+.navbar{
+	padding: 0;
+	background-color: #150303;
+}
+.fixed-top{
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 999;
+	overflow: hidden;
+}
+.nav-item{
+	margin: 0px 16px;
+}
+.has-sub-menu{
+	position: absolute;
+	padding: 15px 62px;
+	background-color: #212529;
+	opacity: 0;
+	transition: 0.5s;
+	margin-top: 7px;
+	margin-left: -15px;
+}
+.sub-menu li{
+	list-style: none;
+	display: block !important;
+	margin-bottom: 0px;
+	margin-left: -30px;
+}
+.sub-menu li a{
+	line-height: 2.3;
+	color: white;
+	font-size: 16px;
+	font-weight: 400;
+	text-transform: uppercase;
+	font-family: 'Chivo', sans-serif;
+	transition: 0.5s;
+}
+.sub-menu li a:hover{
+	color: #fb0000 !important;
+	transition: 0.5s;
+	margin-left: 5px;
+	display: inline-block;
+}
+.navbar-collapse li:hover .has-sub-menu{
+	opacity: 1;
+	transition: 0.5s;
+	transform: translateY(10px);
+}
+/**************************
+banner section css
+***************************/
+#banner{
+	width: 100%;
+	background-color: #150303;
+	padding-top: 74px;
+}
+.b-content{
+	height: 80vh;
+	display: flex;
+	align-items: center;
+}
+.b-content h1{
+	font-family: 'Chivo', sans-serif;
+	font-size: 80px;
+	color: #fff;
+	font-weight: 900;
+	text-transform: uppercase;
+	line-height: 1;
+	margin-top: 14px;
+}
+.b-content p{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 24px;
+	color: #fff;
+	margin: 16px 0px;
+	line-height: 1.5;
+}
+.book-btn{
+	background: #fb0000;
+	font-family: "Chivo",sans-serif;
+	text-transform: inherit !important;
+	padding: 20px 58px;
+	color: #fff !important;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 18px !important;
+	margin-top: 16px
+}
+/**************************
+about section css
+***************************/
+#about{
+	width: 100%;
+	padding: 100px 0px;
+}
+.a-desc{
+	font-family: 'Open Sans', sans-serif;
+	color: #675e5e !important;
+	font-size: 18px;
+	font-weight: 400;
+}
+.a-item{
+	margin: 22px 0px;
+}
+.line{
+	height: 5px;
+	width: 50px;
+	background-color: #fb0000;
+	margin-bottom: 24px;
+}
+#about h2{
+	font-family: "Chivo",sans-serif;
+	font-size: 50px;
+	display: block;
+	font-weight: 700;
+	text-transform: uppercase;
+	line-height: 1;
+	margin-bottom: 12px;
+}
+#about p{
+	  color: #675e5e;
+	  font-size: 18px;
+	  font-weight: 400;
+	  line-height: 1.5;
+	  margin-bottom: 30px;
+}
+.transparent{
+	background-color: transparent !important;
+	color: #fb0000 !important;
+	border: 2px solid #fb0000;
+	font-weight: 700;
+	font-size: 18px;
+	padding: 14px 32px;
+	transition: 0.5s;
+}
+.transparent:hover{
+	background-color: #fb0000 !important;
+	color: #fff !important;
+	transition: 0.5s;
+}
+/**************************
+price section css
+***************************/
+#price{
+	width: 100%;
+	padding: 100px 0px;
+}
+.users-gallery{
+	display: grid;
+	grid-template-columns: auto auto auto;
+}
+#price h2{
+	font-family: "Chivo",sans-serif;
+	font-size: 44px;
+	font-weight: 700;
+	text-transform: uppercase;
+	line-height: 1;
+	margin-bottom: 40px;
+	padding-bottom: 18px;
+	border-bottom: 1px solid #000;
+}
+.p-list li{
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+	border-bottom: 1px solid #efdce4;
+}
+.p-list li a{
+	color: #150303 !important;
+	font-size: 18px;
+	font-family: "Chivo",sans-serif;
+}
+.p-amount{
+	font-family: "Open Sans",sans-serif;
+	color: #3f4854;
+	font-size: 18px;
+}
+.p-amount span{
+	font-family: "Chivo",sans-serif;
+	color: #fb0000;
+	font-size: 18px;
+	font-weight: 700;
+}
+/**************************
+service section css
+***************************/
+#service{
+	width: 100%;
+	padding: 100px 0px;
+}
+#service h1{
+	font-family: "Chivo",sans-serif;
+	font-size: 44px;
+	font-weight: 700;
+	text-transform: uppercase;
+	line-height: 1;
+	margin-bottom: 40px;
+	padding-bottom: 18px;
+}
+.accordion-button:not(.collapsed) {
+  color: #fff !important;
+  background-color: #fb0000 !important;
+  box-shadow: none !important;
+}
+.accordion-button{
+	font-family: "Chivo",sans-serif;
+	font-size: 20px;
+	font-weight: 700;
+	background-color: black;
+	color: white;
+}
+.accordion-item{
+	border: none !important;
+	margin-bottom: 20px;
+}
+.accordion-button:not(.collapsed)::after {
+  background-image: url('../img/arrow-down.png') !important;
+  transform: rotate(-180deg);
+}
+.accordion-button::after{
+	background-image: url('../img/arrow-down.png') !important;
+}
+/**************************
+service category section css
+***************************/
+#s-category{
+	width: 100%;
+	background-image: url('../img/cat-bg.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	padding: 100px 0px;
+}
+.sc-item{
+	background-color: #150303;
+	padding: 48px 40px;
+	text-align: center;
+	border-radius: 16px;
+	position: relative;
+	z-index: 9999;
+}
+.sc-item img{
+
+}
+.sc-item h3 a{
+	font-family: "Chivo",sans-serif;
+	color: #fff;
+	font-size: 24px;
+	font-weight: 400;
+	margin-bottom: 21px;
+}
+.sc-item p{
+	font-family: "Open Sans",sans-serif;
+	color: #928888;
+	font-size: 16px;
+	line-height: 1.5;
+
+}
+.sc-item::before{
+	content: '';
+	position: absolute;
+	background-color: #fff;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	height: 0;
+	border-radius: 16px;
+	transition: 0.5s;
+	z-index: -1;
+}
+.sc-item:hover::before{
+	height: 100%;
+	transition: 0.5s;
+}
+.sc-item:hover h3 a{
+	color: #150303;
+}
+/**************************
+image-slider section css
+***************************/
+#img-slider{
+	width: 100%;
+}
+#img-slider .owl-item{
+	margin-right: 0 !important;
+}
+.owl-dots,.owl-nav{
+	display: none !important;
+}
+.owl-stage{
+	transition: all 2s ease 0s !important;
+}
+.sl-item{
+	position: relative;
+}
+.sl-item::before{
+	position: absolute;
+	content: "";
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	background-color: rgba(251,0,0,.3);
+	opacity: 0;
+	z-index: 1;
+	transition: 0.5s;
+}
+.sl-item:hover::before{
+	opacity: 1;
+	transition: 0.5s;
+}
+/**************************
+testimonial section css
+***************************/
+#testimonial{
+	width: 100%;
+	padding: 100px 0px;
+}
+#testimonial .title{
+	font-family: "Chivo",sans-serif;
+	font-size: 44px;
+	font-weight: 700;
+	text-transform: uppercase;
+	line-height: 1;
+	padding-bottom: 18px;
+}
+#testimonial .t-item{
+	padding: 32px;
+}
+#testimonial .review-star{
+	color: #fb0000;
+	font-size: 14px;
+	margin-bottom: 16px;
+}
+#testimonial .msg{
+	color: #150303;
+	font-size: 20px;
+	line-height: 1.6;
+	margin-bottom: 24px;
+	font-weight: 400;
+}
+#testimonial .c-border{
+	border: 1px solid rgba(103,94,94,.2);
+}
+.c-border:nth-child(1), .c-border:nth-child(3){
+	border-left: none !important;
+	border-right: none !important;
+}
+/**************************
+footer section css
+***************************/
+footer{
+	width: 100%;
+	padding: 100px 0px;
+	background-color: #150303;
+}
+.footer-1 i{
+	color: #fb0000;
+	font-size: 20px;
+	margin-bottom: 25px;
+}
+.footer-1 h5{
+	color: #fff;
+	font-size: 20px;
+	margin-bottom: 10px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+.footer-1 p{
+	color: #928888;
+	font-weight: 400;
+	font-size: 15px;
+	margin: 0;
+	padding: 0;
+}
+.footer-1 a{
+	color: #928888;
+	font-weight: 400;
+	font-size: 15px;
+}
+.f-icon i{
+	height: 50px;
+	width: 50px;
+	color: white;
+	font-size: 18px;
+	background-color: rgba(255, 255, 255, 0.06);
+	border-radius: 100%;
+	text-align: center;
+	line-height: 50px;
+	transition: 1s;
+}
+.f-icon a{
+	margin: 0 4px;
+}
+.f-icon i:hover{
+	background-color: #fb0000;
+	transform: rotateY(180deg);
+	transition: 1s;
+}
+.f-line{
+	height: 1px;
+	width: 100%;
+	background-color: #212529;
+	margin-bottom: 50px;
+}
+/*********************
+copright section design
+*********************/
+.copyright{
+	font-family: 'Open Sans', sans-serif;
+	color: #928888;
+	font-weight: 400;
+	font-size: 13px;
+	text-align: center;
+	margin-bottom: -35px;
+}
+.copyright i{
+	color: #fb0000;
+}
+.copyright a{
+	color: #fb0000;
+}
